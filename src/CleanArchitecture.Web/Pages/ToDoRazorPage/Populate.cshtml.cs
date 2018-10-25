@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Core;
-using CleanArchitecture.Core.Interfaces;
+﻿using DispatchPro.Core;
+using DispatchPro.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CleanArchitecture.Web.Pages.ToDoRazorPage
+namespace DispatchPro.Web.Pages.ToDoRazorPage
 {
     public class PopulateModel : PageModel
     {

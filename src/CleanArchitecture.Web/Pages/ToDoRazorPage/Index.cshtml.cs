@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Core.Interfaces;
+﻿using DispatchPro.Core.Entities;
+using DispatchPro.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Generic;
 
-namespace CleanArchitecture.Web.Pages.ToDoRazorPage
+namespace DispatchPro.Web.Pages.ToDoRazorPage
 {
     public class IndexModel : PageModel
     {

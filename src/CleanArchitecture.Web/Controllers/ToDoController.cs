@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Core;
-using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Core.Interfaces;
+﻿using DispatchPro.Core;
+using DispatchPro.Core.Entities;
+using DispatchPro.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArchitecture.Web.Controllers
+namespace DispatchPro.Web.Controllers
 {
     public class ToDoController : Controller
     {

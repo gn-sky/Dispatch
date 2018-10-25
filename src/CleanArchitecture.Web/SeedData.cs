@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Infrastructure.Data;
+﻿using DispatchPro.Core.Entities;
+using DispatchPro.Infrastructure.Data;
 
-namespace CleanArchitecture.Web
+namespace DispatchPro.Web
 {
     public static class SeedData
     {

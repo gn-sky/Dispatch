@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Core.Interfaces;
+﻿using DispatchPro.Core.Entities;
+using DispatchPro.Core.Interfaces;
 using System.Linq;
 
-namespace CleanArchitecture.Core
+namespace DispatchPro.Core
 {
     public static class DatabasePopulator
     {

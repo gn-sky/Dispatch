@@ -1,8 +1,8 @@
 ﻿using Ardalis.GuardClauses;
-using CleanArchitecture.Core.Events;
-using CleanArchitecture.Core.Interfaces;
+using DispatchPro.Core.Events;
+using DispatchPro.Core.Interfaces;
 
-namespace CleanArchitecture.Core.Services
+namespace DispatchPro.Core.Services
 {
     public class ToDoItemService : IHandle<ToDoItemCompletedEvent>
     {

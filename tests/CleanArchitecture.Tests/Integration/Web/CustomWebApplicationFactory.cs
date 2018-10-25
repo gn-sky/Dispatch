@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Core.Interfaces;
-using CleanArchitecture.Infrastructure.Data;
-using CleanArchitecture.Web;
+﻿using DispatchPro.Core.Interfaces;
+using DispatchPro.Infrastructure.Data;
+using DispatchPro.Web;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace CleanArchitecture.Tests.Integration.Web
+namespace DispatchPro.Tests.Integration.Web
 {
     public class CustomWebApplicationFactory<TStartup> : WebApplicationFactory<Startup>
     {

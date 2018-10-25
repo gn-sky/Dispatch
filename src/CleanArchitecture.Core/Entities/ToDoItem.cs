@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Core.Events;
-using CleanArchitecture.Core.SharedKernel;
+﻿using DispatchPro.Core.Events;
+using DispatchPro.Core.SharedKernel;
 
-namespace CleanArchitecture.Core.Entities
+namespace DispatchPro.Core.Entities
 {
     public class ToDoItem : BaseEntity
     {

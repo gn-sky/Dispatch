@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Core.SharedKernel;
+﻿using DispatchPro.Core.SharedKernel;
 
-namespace CleanArchitecture.Core.Interfaces
+namespace DispatchPro.Core.Interfaces
 {
     public interface IDomainEventDispatcher
     {

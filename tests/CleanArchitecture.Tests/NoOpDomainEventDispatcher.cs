@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Core.Interfaces;
-using CleanArchitecture.Core.SharedKernel;
+﻿using DispatchPro.Core.Interfaces;
+using DispatchPro.Core.SharedKernel;
 
-namespace CleanArchitecture.Tests
+namespace DispatchPro.Tests
 {
     public class NoOpDomainEventDispatcher : IDomainEventDispatcher
     {

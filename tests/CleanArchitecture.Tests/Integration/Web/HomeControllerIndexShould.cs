@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Web;
+﻿using DispatchPro.Web;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace CleanArchitecture.Tests.Integration.Web
+namespace DispatchPro.Tests.Integration.Web
 {
     public class HomeControllerIndexShould : IClassFixture<CustomWebApplicationFactory<Startup>>
     {
@@ -21,7 +21,7 @@ namespace CleanArchitecture.Tests.Integration.Web
             response.EnsureSuccessStatusCode();
             string stringResponse = await response.Content.ReadAsStringAsync();
 
-            Assert.Contains("CleanArchitecture.Web", stringResponse);
+            Assert.Contains("DispatchPro.Web", stringResponse);
         }
     }
 }

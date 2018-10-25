@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Core.SharedKernel;
+﻿using DispatchPro.Core.SharedKernel;
 using System.Collections.Generic;
 
-namespace CleanArchitecture.Core.Interfaces
+namespace DispatchPro.Core.Interfaces
 {
     public interface IRepository
     {

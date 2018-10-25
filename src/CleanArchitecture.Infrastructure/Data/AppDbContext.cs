@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Core.Interfaces;
+﻿using DispatchPro.Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Core.SharedKernel;
+using DispatchPro.Core.Entities;
+using DispatchPro.Core.SharedKernel;
 
-namespace CleanArchitecture.Infrastructure.Data
+namespace DispatchPro.Infrastructure.Data
 {
     public class AppDbContext : DbContext
     {

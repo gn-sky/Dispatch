@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace CleanArchitecture.Web
+namespace DispatchPro.Web
 {
     public class Program
     {

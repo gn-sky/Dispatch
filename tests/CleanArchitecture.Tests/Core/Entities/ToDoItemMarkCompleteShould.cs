@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Core.Events;
+﻿using DispatchPro.Core.Events;
 using System.Linq;
 using Xunit;
 
-namespace CleanArchitecture.Tests.Core.Entities
+namespace DispatchPro.Tests.Core.Entities
 {
     public class ToDoItemMarkCompleteShould
     {

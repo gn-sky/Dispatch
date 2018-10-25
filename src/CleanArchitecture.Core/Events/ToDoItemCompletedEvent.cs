@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Core.SharedKernel;
+﻿using DispatchPro.Core.Entities;
+using DispatchPro.Core.SharedKernel;
 
-namespace CleanArchitecture.Core.Events
+namespace DispatchPro.Core.Events
 {
     public class ToDoItemCompletedEvent : BaseDomainEvent
     {

@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Core.Entities;
+﻿using DispatchPro.Core.Entities;
 
-namespace CleanArchitecture.Tests
+namespace DispatchPro.Tests
 {
     public class ToDoItemBuilder
     {

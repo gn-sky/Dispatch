@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Core.Interfaces;
-using CleanArchitecture.Web.ApiModels;
-using CleanArchitecture.Web.Filters;
+﻿using DispatchPro.Core.Entities;
+using DispatchPro.Core.Interfaces;
+using DispatchPro.Web.ApiModels;
+using DispatchPro.Web.Filters;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 
-namespace CleanArchitecture.Web.Api
+namespace DispatchPro.Web.Api
 {
     [Route("api/[controller]")]
     [ValidateModel]
